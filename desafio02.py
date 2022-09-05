@@ -153,11 +153,3 @@ if __name__ == '__main__':
         cliente3.conta.sacar(300)
     else:
         print('Cliente não autenticado.')
-
-
-
-
-
-
-
-
