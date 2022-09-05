@@ -69,10 +69,6 @@ class Conta(ABC):
 
     @saldo.setter
     def saldo(self, valor):
-        if not isinstance(valor, (int, float)):
-            print('Erro! Saldo precisa ser numérico.')
-            return
-
         self._saldo = valor
 
     def detalhes(self):
